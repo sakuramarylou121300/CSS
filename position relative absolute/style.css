@@ -1,0 +1,22 @@
+/* relative and absolute */
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: hsl(188, 100%, 63%);
+    /* this can be relative or fixed 
+    *  relative - scroll
+    *  fixed - scroll not affected
+    */
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
+
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(0, 100%, 63%);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}

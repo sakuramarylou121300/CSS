@@ -1,0 +1,22 @@
+p, h2, h3, h4{
+    border: 1px solid red;
+}
+
+/* test display */
+span, a, img{
+    border: 1px solid blue;
+    display: inline-block;
+    width: 200px;
+    /* visibility: hidden; */
+}
+
+#sentence{
+    background: dodgerblue;
+    color: #ffffff;
+}
+/* #sentence span{
+    border: none;
+    color: 000000;
+    background: yellow;
+    font-size: 50px;
+} */
